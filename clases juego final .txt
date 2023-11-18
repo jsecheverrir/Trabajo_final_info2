@@ -1,0 +1,96 @@
+clases juego final 
+#include <iostream>
+#include <vector>
+
+// Declaración de clases para evitar errores de compilación circular
+class Nivel;
+class Jugador;
+
+class Juego {
+public:
+    Juego() {
+        nivelActual = 0; // Comenzamos con el primer nivel
+        // Inicializa otros atributos, como vidas, puntajes, etc.
+    }
+
+    void IniciarJuego() {
+        while (true) {
+            if (niveles[nivelActual]->Completado()) {
+                // El jugador ha completado el nivel actual, transición al siguiente nivel.
+                nivelActual++;
+                if (nivelActual >= niveles.size()) {
+                    // El jugador ha completado todos los niveles, muestra pantalla de victoria.
+                    MostrarPantallaVictoria();
+                    break;
+                } else {
+                    // Inicia el siguiente nivel.
+                    niveles[nivelActual]->Iniciar();
+                }
+            } else {
+                // El jugador ha perdido todas las vidas, muestra pantalla de derrota.
+                MostrarPantallaDerrota();
+                break;
+            }
+        }
+    }
+
+    void AgregarNivel(Nivel* nivel) {
+        niveles.push_back(nivel);
+    }
+
+private:
+    int nivelActual;
+    std::vector<Nivel*> niveles;
+    Jugador* jugador;
+
+    void MostrarPantallaVictoria() {
+        std::cout << "¡Has ganado el juego!" << std::endl;
+    }
+
+    void MostrarPantallaDerrota() {
+        std::cout << "¡Has perdido! ¿Deseas reiniciar o salir del juego?" << std::endl;
+        // Aquí puedes manejar la entrada del jugador para reiniciar o salir del juego.
+    }
+};
+
+class Nivel {
+public:
+    Nivel(std::string nombre) : nombre(nombre), completado(false) {
+        // Inicializa otros atributos del nivel, como la configuración y objetos.
+    }
+
+    void Iniciar() {
+        std::cout << "Iniciando nivel: " << nombre << std::endl;
+        // Lógica para iniciar el nivel, como la generación de enemigos y objetos.
+    }
+
+    bool Completado() {
+        return completado;
+        // Puedes implementar lógica para verificar si el nivel ha sido completado.
+    }
+
+private:
+    std::string nombre;
+    bool completado;
+    // Otros atributos del nivel, como enemigos, objetos, tiempo, etc.
+};
+
+int main() {
+    Nivel nivel1("La Casa Encantada");
+    Nivel nivel2("La Nave Espacial en Peligro");
+
+    nivel1.Iniciar();
+    // Implementa la lógica del nivel 1.
+
+    if (nivel1.Completado()) {
+        nivel2.Iniciar();
+        // Implementa la lógica para avanzar al siguiente nivel.
+    } else {
+        std::cout << "Nivel 1 no completado. El juego ha terminado." << std::endl;
+if (nivel1 y nivel2 completado()) 
+//logica nivel 3
+    }
+
+    return 0;
+}
+
