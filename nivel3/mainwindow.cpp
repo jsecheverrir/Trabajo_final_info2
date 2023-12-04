@@ -45,6 +45,7 @@ MainWindow::MainWindow(QWidget *parent) :
         Personaje *personaje = new Personaje(scene, spritePath);
         personaje->setPos(0, scene->height() - personaje->pixmap().height() + 75);
         scene->addItem(personaje);
+
         // Agregar el enemigo
         QString spritePathEnemigo = "C:/Users/juana/OneDrive/Escritorio/untitled4/fotos/sprite/enemigo.png"; // Ajusta la ruta según tu necesidad
         Enemigo *enemigo = new Enemigo(scene, spritePathEnemigo);
