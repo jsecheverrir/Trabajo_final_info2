@@ -12,11 +12,13 @@ SOURCES += \
     enemigo.cpp \
     main.cpp \
     mainwindow.cpp \
+    nivel.cpp \
     personaje.cpp
 
 HEADERS += \
     enemigo.h \
     mainwindow.h \
+    nivel.h \
     personaje.h
 
 FORMS += \
