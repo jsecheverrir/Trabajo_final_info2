@@ -19,6 +19,7 @@ SOURCES += \
     Objeto.cpp \
     ObjetoObstaculo.cpp \
     Personaje.cpp \
+    Personaje.cpp \
     Temporizador.cpp \
     main.cpp \
     mainwindow.cpp
@@ -33,6 +34,7 @@ HEADERS += \
     Objeto.h \
     ObjetoObstaculo.h \
     ObjetoRecolectable.h \
+    Personaje.h \
     Personaje.h \
     Temporizador.h \
     mainwindow.h

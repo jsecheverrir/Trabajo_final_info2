@@ -1,0 +1,15 @@
+debug/ControladorEventos.o
+debug/Enemigo.o
+debug/InterfazUsuario.o
+debug/Juego.o
+debug/Jugador.o
+debug/Nivel.o
+debug/ObjectoRecolectable.o
+debug/Objeto.o
+debug/ObjetoObstaculo.o
+debug/Personaje.o
+debug/Personaje.o
+debug/Temporizador.o
+debug/main.o
+debug/mainwindow.o
+debug/moc_mainwindow.o

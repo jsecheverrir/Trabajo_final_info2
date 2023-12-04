@@ -1,0 +1,15 @@
+release/ControladorEventos.o
+release/Enemigo.o
+release/InterfazUsuario.o
+release/Juego.o
+release/Jugador.o
+release/Nivel.o
+release/ObjectoRecolectable.o
+release/Objeto.o
+release/ObjetoObstaculo.o
+release/Personaje.o
+release/Personaje.o
+release/Temporizador.o
+release/main.o
+release/mainwindow.o
+release/moc_mainwindow.o

@@ -1,23 +1,11 @@
 #ifndef PERSONAJE_H
 #define PERSONAJE_H
 
-#include "Objeto.h"
 
-enum Direccion {
-    ARRIBA,
-    ABAJO,
-    IZQUIERDA,
-    DERECHA
-};
-
-class Personaje {
-private:
-         // Atributos de la clase
-         // ...
-
+class Personaje
+{
 public:
-        // Métodos de la clase
-        // ...
+    Personaje();
 };
 
 #endif // PERSONAJE_H

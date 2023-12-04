@@ -2,13 +2,13 @@
 #define JUEGO_H
 
 #include <vector>
-#include "Jugador.h"
+//#include "Jugador.h"
 #include "Nivel.h"
 
 class Juego {
 private:
     int nivelActual;
-    Jugador jugadorPrincipal;
+//    Jugador jugadorPrincipal;
     std::vector<Nivel> listaNiveles;
     int numeroNiveles;
 
