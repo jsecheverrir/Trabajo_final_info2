@@ -768,42 +768,7 @@ debug/mainwindow.o: ../final/mainwindow.cpp ../final/mainwindow.h \
 		C:/InstalacionQt/6.6.0/mingw_64/include/QtGui/qpainterpath.h \
 		C:/InstalacionQt/6.6.0/mingw_64/include/QtCore/QDebug \
 		C:/InstalacionQt/6.6.0/mingw_64/include/QtGui/QKeyEvent \
-		ui_mainwindow.h \
-		C:/InstalacionQt/6.6.0/mingw_64/include/QtCore/QVariant \
-		C:/InstalacionQt/6.6.0/mingw_64/include/QtWidgets/QApplication \
-		C:/InstalacionQt/6.6.0/mingw_64/include/QtWidgets/qapplication.h \
-		C:/InstalacionQt/6.6.0/mingw_64/include/QtCore/qcoreapplication.h \
-		C:/InstalacionQt/6.6.0/mingw_64/include/QtCore/qeventloop.h \
-		C:/InstalacionQt/6.6.0/mingw_64/include/QtCore/qcoreapplication_platform.h \
-		C:/InstalacionQt/6.6.0/mingw_64/include/QtCore/qfuture.h \
-		C:/InstalacionQt/6.6.0/mingw_64/include/QtCore/qfutureinterface.h \
-		C:/InstalacionQt/6.6.0/mingw_64/include/QtCore/qmutex.h \
-		C:/InstalacionQt/6.6.0/mingw_64/include/QtCore/qdeadlinetimer.h \
-		C:/InstalacionQt/6.6.0/mingw_64/include/QtCore/qelapsedtimer.h \
-		C:/InstalacionQt/6.6.0/mingw_64/include/QtCore/qtsan_impl.h \
-		C:/InstalacionQt/6.6.0/mingw_64/include/QtCore/qresultstore.h \
-		C:/InstalacionQt/6.6.0/mingw_64/include/QtCore/qfuture_impl.h \
-		C:/InstalacionQt/6.6.0/mingw_64/include/QtCore/qthreadpool.h \
-		C:/InstalacionQt/6.6.0/mingw_64/include/QtCore/qthread.h \
-		C:/InstalacionQt/6.6.0/mingw_64/include/QtCore/qrunnable.h \
-		C:/InstalacionQt/6.6.0/mingw_64/include/QtCore/qexception.h \
-		C:/InstalacionQt/6.6.0/mingw_64/include/QtCore/qpromise.h \
-		C:/InstalacionQt/6.6.0/mingw_64/include/QtGui/qguiapplication.h \
-		C:/InstalacionQt/6.6.0/mingw_64/include/QtGui/qinputmethod.h \
-		C:/InstalacionQt/6.6.0/mingw_64/include/QtCore/qlocale.h \
-		C:/InstalacionQt/6.6.0/mingw_64/include/QtGui/qguiapplication_platform.h \
-		C:/InstalacionQt/6.6.0/mingw_64/include/QtWidgets/QGraphicsView \
-		C:/InstalacionQt/6.6.0/mingw_64/include/QtWidgets/qgraphicsview.h \
-		C:/InstalacionQt/6.6.0/mingw_64/include/QtGui/qpainter.h \
-		C:/InstalacionQt/6.6.0/mingw_64/include/QtGui/qtextoption.h \
-		C:/InstalacionQt/6.6.0/mingw_64/include/QtWidgets/qscrollarea.h \
-		C:/InstalacionQt/6.6.0/mingw_64/include/QtWidgets/qabstractscrollarea.h \
-		C:/InstalacionQt/6.6.0/mingw_64/include/QtWidgets/qframe.h \
-		C:/InstalacionQt/6.6.0/mingw_64/include/QtWidgets/QMenuBar \
-		C:/InstalacionQt/6.6.0/mingw_64/include/QtWidgets/qmenubar.h \
-		C:/InstalacionQt/6.6.0/mingw_64/include/QtWidgets/qmenu.h \
-		C:/InstalacionQt/6.6.0/mingw_64/include/QtWidgets/QStatusBar \
-		C:/InstalacionQt/6.6.0/mingw_64/include/QtWidgets/qstatusbar.h
+		ui_mainwindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\mainwindow.o ..\final\mainwindow.cpp
 
 debug/moc_mainwindow.o: debug/moc_mainwindow.cpp 
