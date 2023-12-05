@@ -9,6 +9,7 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    bala.cpp \
     enemigo.cpp \
     main.cpp \
     mainwindow.cpp \
@@ -16,8 +17,10 @@ SOURCES += \
     personaje.cpp
 
 HEADERS += \
+    bala.h \
     enemigo.h \
     mainwindow.h \
+    muro.h \
     nivel.h \
     personaje.h
 

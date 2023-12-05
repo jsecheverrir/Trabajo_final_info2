@@ -1,3 +1,4 @@
+// mainwindow.h
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
@@ -6,7 +7,7 @@
 #include <QGraphicsPixmapItem>
 #include <QPixmap>
 #include <QDebug>
-#include "personaje.h"  // Incluimos la clase Personaje
+#include "personaje.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -20,8 +21,12 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+private slots:
+    void keyPressEvent(QKeyEvent *event);
+
 private:
     Ui::MainWindow *ui;
+    Personaje *personaje;
 };
 
 #endif // MAINWINDOW_H
