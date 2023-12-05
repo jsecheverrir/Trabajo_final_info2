@@ -1,0 +1,12 @@
+release/enemigo.o
+release/juego.o
+release/jugador.o
+release/main.o
+release/mainwindow.o
+release/muros.o
+release/niveles.o
+release/objeto.o
+release/personaje.o
+release/usuario.o
+release/moc_niveles.o
+release/moc_objeto.o

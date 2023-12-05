@@ -1,0 +1,12 @@
+debug/enemigo.o
+debug/juego.o
+debug/jugador.o
+debug/main.o
+debug/mainwindow.o
+debug/muros.o
+debug/niveles.o
+debug/objeto.o
+debug/personaje.o
+debug/usuario.o
+debug/moc_niveles.o
+debug/moc_objeto.o
